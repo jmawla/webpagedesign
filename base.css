@@ -13,19 +13,46 @@ body {
 #nav {
 	height: 100px;
 	background: linear-gradient(to bottom, #2799c6 16%, #006599 100%);
+	bottom: 0;
 }
 
 #nav ul {
 	list-style-type: none;
 	width: 50%;
 	float: right;
+	margin-top: 6.5%;
 }
 
 #nav ul li {
 	text-align: center;
 	width: 100px;
 	display: inline-block;
+	border-left: 5px groove #6e6e6e;
 }
+
+.subMenuNav {
+	display: none;
+	padding: 0px 55px 0px 0px;
+	margin-top: -2px;
+}
+
+.subMenuNav>li {
+	display: block;
+	height: 24px;
+	width: 100%;
+	border-top: 2px groove #6b6b6b;
+	vertical-align: middle;
+	padding-top: 4px;
+	padding-bottom: 4px;
+/*	margin-left: -30px;
+	margin-right: 3px;*/
+}
+
+.subMenuNav>li:first-child {
+	margin-top: 5px;
+}
+
+
 
 a {
 	text-decoration: none;
@@ -43,35 +70,43 @@ a {
 #projContainer {
 	float: left;
 	width: 30%;
-	height: 40%;
+	height: 100%;
 	background: linear-gradient(to left, #cccccc 6%, #161616 100%);
-/*	background: #dedede;*/
-	margin-top: 5%;
+/*	background: #dedede;
+	margin-top: 5%;*/
+	text-align: center;
+	color: white;
+	display: block;
+	font-family: cursive;
 }
 
-#projContainer ul li {
+#projContainer>ul>li {
 	list-style-type: none;
 }
 
+#projContainer>ul {
+	padding-left: 0px;
+}
+
 .projBlocks {
-	padding-top: 10%;
-	padding-left: 20%;
+	padding-top: 5%;
+/*	padding-left: 20%;*/
 	color: white;
 }
 
-#blog {
+/*#blog {
 	background: #dedede;
 	height: 40%;
 	width: 67.5%;
 	margin-top: 5%;
 	float: left;
 	color: black;
-}
+}*/
 
 #footer {
 	color: white;
 	width: 800px;
-	height: 140px;
+	height: 40px;
 	margin: auto;
 	background: black;
 	position: fixed;
