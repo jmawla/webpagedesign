@@ -27,20 +27,19 @@ body {
 	text-align: center;
 	width: 100px;
 	display: inline-block;
-	border-left: 5px groove #6e6e6e;
+	border-left: 3px groove #6e6e6e;
 }
 
 .subMenuNav {
 	display: none;
-	padding: 0px 55px 0px 0px;
-	margin-top: -2px;
+	padding: 0px 53px 0px 0px;
 }
 
 .subMenuNav>li {
 	display: block;
 	height: 24px;
 	width: 100%;
-	border-top: 2px groove #6b6b6b;
+	border-top: 1px groove #6b6b6b;
 	vertical-align: middle;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -49,7 +48,7 @@ body {
 }
 
 .subMenuNav>li:first-child {
-	margin-top: 5px;
+	margin-top: -3px;
 }
 
 
